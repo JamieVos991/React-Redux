@@ -1,0 +1,19 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input__input {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    background: #ececec;
+    border: none;
+    box-shadow: 0 0.3rem 0 0 #c6c6c6;
+    padding: 0.8rem;
+}
+
+.input__input:focus {
+    outline: 0.2rem solid green;
+}
