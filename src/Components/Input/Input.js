@@ -5,7 +5,7 @@ class Input extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {inputValue: "Hoi ik ben jamie"}
+        this.state = {inputValue: ""}
     }
 
     onInputSubmit = (event) => {
@@ -19,6 +19,11 @@ class Input extends React.Component {
     onInputChange = (event) => {
         this.setState({inputValue: event.target.value});
     }
+
+    onColorChange = (event) => {
+        console.log("asd");
+    }
+
 
     render(){
         return (

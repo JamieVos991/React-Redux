@@ -11,11 +11,11 @@ html {
 body {
   font-size: 1.6rem;
   background: brown;
+  padding: 2rem;
 }
 
 #root {
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 4rem;
 }
