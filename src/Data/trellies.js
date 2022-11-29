@@ -28,136 +28,136 @@ const data = [
     },
     {
         id: 2,
-        title: "Huiswerk",
+        title: "Boodschappen",
         count: 4, 
         activities: [
             {
                 id: 1,
                 label: "Vandaag",
-                description: "Beroepsopdracht"
+                description: "Melk"
             },
             {
                 id: 2,
                 label: "Vandaag",
-                description: "AVO"
+                description: "Paprika"
             },
             {
                 id: 3,
                 label: "Vandaag",
-                description: "PROG"
+                description: "Tomaten"
             },
             {
                 id: 4,
                 label: "Vandaag",
-                description: "Stage vinden"
+                description: "Brood"
             },
         ] 
     },
     {
         id: 3,
-        title: "Huiswerk",
+        title: "Netflix",
         count: 4, 
         activities: [
             {
                 id: 1,
                 label: "Vandaag",
-                description: "Beroepsopdracht"
+                description: "Pokemon"
             },
             {
                 id: 2,
                 label: "Vandaag",
-                description: "AVO"
+                description: "Wednesday"
             },
             {
                 id: 3,
                 label: "Vandaag",
-                description: "PROG"
+                description: "Cobra Kai"
             },
             {
                 id: 4,
                 label: "Vandaag",
-                description: "Stage vinden"
+                description: "Umbrella Academy"
             },
         ] 
     },
     {
         id: 4,
-        title: "Huiswerk",
+        title: "Games",
         count: 4, 
         activities: [
             {
                 id: 1,
                 label: "Vandaag",
-                description: "Beroepsopdracht"
+                description: "Bloons TD 6"
             },
             {
                 id: 2,
                 label: "Vandaag",
-                description: "AVO"
+                description: "Hexceed"
             },
             {
                 id: 3,
                 label: "Vandaag",
-                description: "PROG"
+                description: "GTA 6"
             },
             {
                 id: 4,
                 label: "Vandaag",
-                description: "Stage vinden"
+                description: "Spiderman"
             },
         ] 
     },
     {
         id: 5,
-        title: "Huiswerk",
+        title: "WK",
         count: 4, 
         activities: [
             {
                 id: 1,
                 label: "Vandaag",
-                description: "Beroepsopdracht"
+                description: "Frankrijk - Tunesie"
             },
             {
                 id: 2,
                 label: "Vandaag",
-                description: "AVO"
+                description: "Australie - Denemarken"
             },
             {
                 id: 3,
                 label: "Vandaag",
-                description: "PROG"
+                description: "Argentinie - Polen"
             },
             {
                 id: 4,
                 label: "Vandaag",
-                description: "Stage vinden"
+                description: "Mexico - Saoedi Arabie "
             },
         ] 
     },
     {
-        id: 67,
-        title: "Huiswerk",
+        id: 6,
+        title: "Random",
         count: 4, 
         activities: [
             {
                 id: 1,
                 label: "Vandaag",
-                description: "Beroepsopdracht"
+                description: "Huis schoonmaken"
             },
             {
                 id: 2,
                 label: "Vandaag",
-                description: "AVO"
+                description: "Televisie kijken"
             },
             {
                 id: 3,
                 label: "Vandaag",
-                description: "PROG"
+                description: "Commits maken"
             },
             {
                 id: 4,
                 label: "Vandaag",
-                description: "Stage vinden"
+                description: "Op de tijd letten"
             },
         ] 
     },
