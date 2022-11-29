@@ -51,6 +51,11 @@ const data = [
                 label: "Vandaag",
                 description: "Brood"
             },
+            {
+                id: 5,
+                label: "Vandaag",
+                description: "Komkommer"
+            },
         ] 
     },
     {
