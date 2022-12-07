@@ -6,22 +6,18 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Beroepsopdracht"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "AVO"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "PROG"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Stage vinden"
             },
         ] 
@@ -33,27 +29,22 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Melk"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "Paprika"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "Tomaten"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Brood"
             },
             {
                 id: 5,
-                label: "Vandaag",
                 description: "Komkommer"
             },
         ] 
@@ -65,22 +56,18 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Pokemon"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "Wednesday"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "Cobra Kai"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Umbrella Academy"
             },
         ] 
@@ -92,22 +79,18 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Bloons TD 6"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "Hexceed"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "GTA 6"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Spiderman"
             },
         ] 
@@ -119,22 +102,18 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Frankrijk - Tunesie"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "Australie - Denemarken"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "Argentinie - Polen"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Mexico - Saoedi Arabie "
             },
         ] 
@@ -146,22 +125,18 @@ const data = [
         activities: [
             {
                 id: 1,
-                label: "Vandaag",
                 description: "Huis schoonmaken"
             },
             {
                 id: 2,
-                label: "Vandaag",
                 description: "Televisie kijken"
             },
             {
                 id: 3,
-                label: "Vandaag",
                 description: "Commits maken"
             },
             {
                 id: 4,
-                label: "Vandaag",
                 description: "Op de tijd letten"
             },
         ] 

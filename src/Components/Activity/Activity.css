@@ -10,13 +10,37 @@
 
 .activity__label {
     font-size: 80%;
-    background-color: #379237;
+    background-color: #2D033B;
     width: max-content;
     padding: 0.2rem 0.5rem;
     border-radius: 0.3rem;
     color: #eee;
     font-weight: 400;
+    cursor: pointer;
 }
+
+.activity__label--morgen {
+    font-size: 80%;
+    background-color: #810CA8;
+    width: max-content;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #eee;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.activity__label--overmorgen {
+    font-size: 80%;
+    background-color: #C147E9;
+    width: max-content;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    color: #eee;
+    font-weight: 400;
+    cursor: pointer;
+}
+
 
 .activity__description  {
     

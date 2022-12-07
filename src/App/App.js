@@ -17,7 +17,6 @@ class App extends React.Component {
     onActivityAdded = (inputValue, id) => {
       let oldState = this.state.trellies;
       let newState = {
-        label: "Vandaag",
         description: inputValue,
         id: oldState[id - 1].activities.length + 1
       }
