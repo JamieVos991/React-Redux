@@ -11,7 +11,7 @@ const Input = (props) => {
     }
 
     const onInputChange = (event) => {
-       props.setInputValueFromRedux();
+       props.setInputValueFromRedux(event.target.value);
     }
 
     return (
@@ -24,13 +24,13 @@ const Input = (props) => {
 
 const mapStatetoProps = (state) => {
     return {
-        inputValueFromRedux: state,
+        inputValueFromRedux: state.input,
     }
 }
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        setInputValueFromRedux: () => dispatch({type: "test"}),
+        setInputValueFromRedux: (payload) => dispatch({type: "TEST", payload: payload}),
     }
 }
 

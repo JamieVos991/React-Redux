@@ -4,14 +4,14 @@ import ReactDOM from 'react-dom/client';
 
 // Redux
 import { createStore } from 'redux';
+import { combineReducers } from 'redux';
 import { Provider } from 'react-redux';
 
 // Componenten
 import App from './App/App';
-import myReducer from "./Reducers/reducers";
+import reducers from './Reducers/reducers';
 
-
-const store = createStore(myReducer);
+const store = createStore(reducers);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
