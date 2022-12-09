@@ -15,7 +15,7 @@ class App extends React.Component {
     }
 
     onActivityAdded = (inputValue, id) => {
-      let oldState = this.props.trelliesFromRedux;
+      let oldState = [...this.props.trelliesFromRedux];
       let newState = {
         description: inputValue,
         id: oldState[id - 1].activities.length + 1
