@@ -14,19 +14,9 @@ class App extends React.Component {
       this.props.setTrelliesFromRedux(trelliesObject);
     }
 
-    onActivityAdded = (inputValue, id) => {
-      let oldState = [...this.props.trelliesFromRedux];
-      let newState = {
-        description: inputValue,
-        id: oldState[id - 1].activities.length + 1
-      }
-      oldState[id - 1].activities.push(newState);
-      this.props.setTrelliesFromRedux(oldState);
-    }
-
     render(){
         let render = this.props.trelliesFromRedux.map(object => {
-          return <Trellie id={object.id} onActivityAdded={this.onActivityAdded} key={object.id} trellie={object} />
+          return <Trellie id={object.id} key={object.id} trellie={object} />
         }); 
         return (  
           <>
